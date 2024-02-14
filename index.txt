@@ -1,0 +1,149 @@
+vCard - Personal Portfolio
+
+# sidebar
+
+alt = Belen Tesfaye
+Belen Tesfaye
+Research Assistant @ Northeastern | Statistical Data Analysis
+
+Show Contacts
+
+Email
+tesfaye.be@northeastern.edu
+
+Phone
++1 (240) 889-0726
+
+Birthday
+August 12, 2003
+
+Location
+Boston, Massachusetts, USA
+
+# navbar
+
+About
+Resume
+Portfolio
+Blog
+Contact
+
+# about
+
+About me
+
+I am a research assistant at D'Amore-McKim School of Business at Northeastern University, where I contribute to the development of large data sets that entail details of products under development by biotech start-ups. I am also pursuing a Bachelor of Science degree in Computer Science and Behavioral Science, with a keen interest in applying computational and cognitive methods to understand human behavior and decision making. My core competencies include statistical data analysis, community service, and analytical skills.
+
+As a research assistant, I use established methodology and training provided by the professor to gather, input, and clean data, using python and other tools. I also participated as a research associate for clinical research at Beth Israel Deaconess Medical Center, where I utilized computer-based image analysis techniques to various diseases, using ITK-SNAP, MATLAB, Monailabel, and 3D Slicer. I am motivated by the potential of data and neuroimaging to improve health outcomes and social welfare, and I seek to bring diverse perspectives and experiences to the team, and have received multiple honors for my academic and creative achievements.
+
+# resume
+
+Resume
+
+Education
+
+Northeastern University, Boston, MA
+(Expected May 2025)
+
+Khoury College of Computer Sciences, Honors Program
+Candidate for Bachelor of Science in Computer Science and Behavioral Neuroscience
+Northeastern University Global Quest Program at American College of Thessaloniki
+(Spring 2022)
+
+Relevant and Ongoing Course Work
+
+Object-Oriented Design
+Data Based Design
+Fundamentals of Computer Science I & II
+Statistics in Psychology Research
+Fundamentals of Software Engineering (IP)
+Algorithms and Data Structure (IP)
+Human Interactions (IP)
+Introduction to Computer Science Research (IP)
+Technology and Human Values (IP)
+Activities
+
+Alpha Phi Omega
+Color Stack
+Northeastern Black Engineering Student Society
+Sisters in Solidarity
+Certificate
+
+Fundamental of Laboratory Safety
+(October 2022)
+
+Skills
+Computer Languages:
+Java
+TypeScript (Visual Studio Code)
+ReactJS
+Python (IntelliJ IDEA)
+C++ (CLion)
+SQL (MySQL)
+Software Systems:
+ITK-SNAP
+MATLAB
+Monailabel
+3D Slicer
+JASP
+Computing Platform:
+GUI
+Laboratory Techniques
+Agar plating and bacterial analysis
+Thin layer chromatography
+Pipetting
+Crystallization
+BLAST
+Language:
+Amharic (native speaker)
+Microsoft Office Suite:
+Excel
+Word
+Outlook
+
+Experience
+
+D’Amore-McKim Business School – Entrepreneurship and Innovation, Remote (Boston, MA)
+Research Assistant
+(April 2023 – Present)
+
+Contributed to the development of large datasets for a biotech startup.
+Applied established methodology and training to gather, input, and clean data.
+
+Beth Israel Deaconess Medical Central Location – Neuroimaging Assistant Co-op, Remote (Boston, MA)
+Research Assistant
+(June 2023 - September 2023)
+
+Investigated the application of neuroimaging techniques in clinical research, focusing on diseases such as cerebral amyloid angiopathy, multiple sclerosis, cancer, and diabetes.
+Utilized Python, ITK-SNAP, MATLAB, Monailabel, and 3D Slicer for computer-based image analysis.
+
+
+# portfolio
+
+Portfolio
+
+Reversi Game – Object Oriented Java Project 
+•	Implemented object-oriented principles including MVC, design patterns, GUI, and Java programming. 
+•	Visualized using textual, hexagonal, and square grids, demonstrating an understanding of axial coordinate systems. 
+•	Developed two distinct player types: human (user) and AI (computer). 
+•	Utilized the strategy pattern to enable the AI player to employ various strategies against the user.
+Using Database System for Sports Management in NBA – Database Capstone Project 
+•	Designed a comprehensive system with interconnected multidimensional datasets.
+•	Overcame the limitations of standalone tables by featuring interconnected tables for athlete profiles, teams, finances, events, and sponsorships.
+•	Provided enhanced insights for sports managers and coaches, prioritizing security, data privacy, and user-friendly interfaces.
+
+# blog
+
+Blog
+
+# contact
+
+Contact
+
+Contact Form
+
+Full name
+Email address
+Your Message
+
+Send Message
