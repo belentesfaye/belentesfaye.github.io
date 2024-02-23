@@ -1032,7 +1032,11 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
-
+.project-description {
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+}
 
 
 
