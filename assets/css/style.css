@@ -784,6 +784,13 @@ main {
   font-size: var(--fs-6);
   margin-left: 45px;
 }
+.timeline-list ul {
+  color: white;
+}
+
+.timeline-list li {
+  color: white;
+}
 
 .timeline-item { position: relative; }
 
