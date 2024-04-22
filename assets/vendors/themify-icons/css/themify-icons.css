@@ -976,12 +976,14 @@
 }
 .ti-instagram:before {
 	content: "\e73d";
+	margin-right: 10px;
 }
 .ti-google:before {
 	content: "\e73e";
 }
 .ti-github:before {
 	content: "\e73f";
+	margin-right: 10px;
 }
 .ti-flickr:before {
 	content: "\e740";
