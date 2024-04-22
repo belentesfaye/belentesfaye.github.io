@@ -1,32 +1,28 @@
 <?php
+header('Content-Type: application/json');
+
+$response = [
+    'status' => 'error',
+    'message' => 'Failed to send message. Please try again.'
+];
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $message = $_POST['message'];
+    $messageContent = $_POST['message'];
 
-    // Your email address
-    $to = 'belentesfaye17@gmail.com';
-
-    // Email subject
-    $subject = 'New message from portfolio website';
-
-    // Email message
-    $email_message = "Name: " . $name . "\n";
-    $email_message .= "Email: " . $email . "\n";
-    $email_message .= "Message:\n" . $message;
-
-    // Headers
-    $headers = 'From: ' . $email . "\r\n" .
-               'Reply-To: ' . $email . "\r\n" .
-               'X-Mailer: PHP/' . phpversion();
+    $to = 'belentesfaye17@gmail.com'; // Your email address
+    $subject = 'New message from your website';
+    $headers = "From: $email\r\n";
 
     // Send email
-    if (mail($to, $subject, $email_message, $headers)) {
-        echo json_encode(array('status' => 'success', 'message' => 'Message sent successfully.'));
-    } else {
-        echo json_encode(array('status' => 'error', 'message' => 'Failed to send message.'));
+    if (mail($to, $subject, $messageContent, $headers)) {
+        $response = [
+            'status' => 'success',
+            'message' => 'Message sent successfully!'
+        ];
     }
-} else {
-    echo json_encode(array('status' => 'error', 'message' => 'Invalid request.'));
 }
+
+echo json_encode($response);
 ?>
