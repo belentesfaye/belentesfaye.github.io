@@ -1,699 +1,671 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with JohnDoe landing page.">
+    <meta name="author" content="Devcrud">
+    <title>JohnDoe Landing page | Free Bootstrap 4.3.x landing page</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + JohnDoe main styles -->
+	<link rel="stylesheet" href="assets/css/johndoe.css">
 </head>
-
-<body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./website photos/IMG_65563.JPG" alt="Belen Tesfaye" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Belen">Belen Tesfaye</h1>
-
-          <p class="title">Research Assistant @Northeastern</p>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons pt-3">
+                <!-- <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li> -->
+                <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/belen.tesf" target="_blank"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                
+                <li class="social-item"><a class="social-link text-light" href="https://github.com/belentesfaye" target="_blank"><i class="ti-github" aria-hidden="true"></i></a></li>
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-subtitle" >Hello, I am</h4>
+                <h1 class="header-title">Belen Tesfaye</h1>
+                <h6 class="header-mono" >Candidate for Bachelor of Science in Computer Science and Behavioral Neuroscience</h6>
+                <button class="btn btn-primary btn-rounded" id="print-resume-btn"><i class="ti-printer pr-2"></i>Print Resume</button>
+            </div>
         </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:tesfaye.be@northeastern.edu" class="contact-link">tesfaye.be@northeastern.edu</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12408890726" class="contact-link">+1 (240) 889-0726</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2003-08-12">August 12, 2003</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Boston, Massachusetts, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/belen.tesf/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="https://github.com/belentesfaye" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/belen-tesfaye-518015193/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-          
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li> -->
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I am a research assistant at D'Amore-McKim School of Business at Northeastern University, where I contribute to the development of large data sets that entail details of products under development by biotech start-ups. 
-            I am also pursuing a Bachelor of Science degree in Computer Science and Behavioral Science, with a keen interest in applying computational and cognitive methods to understand human behavior and decision making. 
-            My core competencies include statistical data analysis, community service, and analytical skills.
-          </p>
-
-          <p>
-            As a research assistant, I use established methodology and training provided by the professor to gather, input, and clean data, using python and other tools. 
-            I also participated as a research associate for clinical research at Beth Israel Deaconess Medical Center, where I utilized computer-based image analysis techniques to various diseases, using ITK-SNAP, MATLAB, Monailabel, and 3D Slicer. 
-            I am motivated by the potential of data and neuroimaging to improve health outcomes and social welfare, and I seek to bring diverse perspectives and experiences to the team, and have received multiple honors for my academic and creative achievements.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What am I doing? </h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Current Projects on GitHub</h4>
-              
-                <ul class="service-item-text">
-                  <li><a href="https://github.com/belentesfaye/IP2">IP2 CS 4530</a></li>
-                  <li><a href="https://github.com/belentesfaye/React-Bootcamp-Toy-Components">React IS 4100</a></li>
-        
-                </ul>
-              </div>
-              
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Personal Project</h4>
-
-                <p class="service-item-text">
-                  Mesmes – Language Learning Website (check Portfolio tab for more details)
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-            <div class="service-content-box">
-              <h4 class="h4 service-item-title">Hobbies and Interests</h4>
-              <p class="service-item-text">
-                Enthusiastic about learning new cultures and staying informed about current world issues through documentaries. 
-                Passionate about baking, particularly perfecting macarons, and aspiring to start a blog about it. 
-                Avid movie watcher who has learned to appreciate cinema and enjoys exploring diverse genres. 
-                Loves backpacking travel experiences, preferring immersive stays in towns to experience local culture and community.
-              </p>
-            </div>
-
-
-            </li>
-
-
-          </ul>
-
-        </section>
-
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/author-image.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Belen Tesfaye</h5>
+                        <div class="brand-subtitle">Undergraduate</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li> -->
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Who am I ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">Candidate for Bachelor of Science in Computer Science and Behavioral Neuroscience</h5>
+                <p class="mt-20">As a Computer Science and Behavioral Neuroscience major, my unique background brings a multidisciplinary approach to software development. My neuroimaging research internship honed my expertise in Python for analyzing MRI scans. Recent coursework in database and object-oriented classes has elevated my Java and MySQL skills. Enrolled in software engineering, human-computer interaction, and algorithm courses, I am eager to apply my diverse skills in a challenging software development internship.</p>
+                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>
+                    <a href = "assets/Resume/Belen Tesfaye  Resume .pdf" download>
+                    Download My CV</button>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Personal Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Birthdate</span> : 08/12/2003</li>
+                    <li><span>Email</span> : tesfaye.be@northeastern.edu</li>
+                    <li><span>Phone</span> : + (240) 889-0726</li>
+                </ul>
+                <ul class="social-icons pt-3">
+                    <!-- <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li> -->
+                    <!-- <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-google" aria-hidden="true"></i></a></li> -->
+                    <li class="social-item"><a class="social-link" href="https://www.instagram.com/belen.tesf" ><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://github.com/belentesfaye"><i class="ti-github" aria-hidden="true"></i></a></li>
+                </ul>  
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">My Expertise</h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-tablet icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Software Development</h6>
+                        <p class="subtitle"> My experience in developing UIs, creating APIs, and working with various programming languages such as Java, JavaScript/Typescript, ReactJS, Python, and C++ demonstrates my strong software development skills.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-briefcase icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Data Analysis and Management</h6>
+                        <p class="subtitle">My roles as a Research Assistant, where you contributed to the development of large datasets and employed Excel spreadsheets for data encoding and organization, showcase my proficiency in data analysis and management.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Human-Computer Interaction (HCI)</h6>
+                        <p class="subtitle">My work on designing UI prototypes in Figma, integrating AI chatbox features, and conducting user experience research for interface enhancements underlines my expertise in HCI.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-desktop icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Version Control and Collaboration</h6>
+                        <p class="subtitle">My familiarity with Version Control systems like Git and experience working in collaborative environments during your various projects indicate my ability to effectively manage codebases, track changes, and collaborate with team members, which is essential in modern software development practices.</p>
+                        <hr>
+                    </div>
+                </div>
 
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
+                <!-- <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Digital Marketing</h6>
+                        <p class="subtitle">voluptate commodi illo voluptatib.</p>
+                        <hr>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
 
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Expertise</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">April 2023 to March 2024</h6>
+                            <P>Research Assistant</P>
+                            <P class="subtitle"> <li>Contribute to the development of large data sets that entail details of products under development by biotech startup.</li>
+                                <li>Using established methodology and training provided by advising professor to gather, input, and clean data.</li>
+                                <li>Employed Excel spreadsheets to encode and organize data effectively, ensuring accuracy and accessibility for analysis and
+                                  interpretation..</li></P>
+                            <hr>
+                            <h6 class="title text-danger">June 2023 - September 2023</h6>
+                            <P>Neuroimaging Research Assistant Co-op</P>
+                            <P class="subtitle"><li>Investigated the application of neuroimaging techniques in clinical research, examining how they can provide insights into diseases
+                                such as cerebral amyloid angiopathy, multiple sclerosis, cancer, and diabetes; findings supported the development of targeted
+                                diagnostic and therapeutic approaches.</li>
+                              <li>Utilized computer-based image analysis using python, ITK-SNAP, MATLAB, Monailabel, and 3D Slicer.</li></P>
+                       
+                              </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2021 - Present</h6>
+                            <P>B.S Computer Science and Behavioral Neuroscience</P>
+                            <P class="subtitle"> <li>Khoury College of Computer Sciences, Honors Program</li>
+                                <li>Northeastern University Global Quest Program at American College of Thessaloniki, Spring 2022</li></P>
+                            <hr>
+                            <h6 class="title text-danger">2017 - 2021</h6>
+                            <P>High School Degree</P>
+                            <P class="subtitle"><li>Washington-Liberty High School, Valedictorian</li>
+                                <li>IB HL courses: Computer Science, Biology </li>
+                                <li>AP Courses: Calculus BC, AB; Physics A </li></P>
+                         
+                                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                            <h6>Java</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6 >JavaScript &amp; Typescript</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>SQL (MySQL)</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 94%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>HTML &amp; CSS</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Python</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 55%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6 >C++</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Languages</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>Amharic</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>French</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="section bg-dark text-center">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="row ">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">500</h1>
+                            <p class="text-light mb-1">Hours Worked</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">50K</h1>
+                            <p class="text-light mb-1">Project Finished</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">200K</h1>
+                            <p class="text-light mb-1">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">2k</h1>
+                            <p class="text-light mb-1">Coffee Drinked</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="section" id="service">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-vector text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Ullam</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-write text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Asperiores</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-package text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Tempora</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-map-alt text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Provident</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Consectetur</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-support text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Veritatis</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="section bg-custom-gray" id="price">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Packs</span> Pricing</h1>
+            <div class="row align-items-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Free</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">0</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">5 <span class="text-muted">Project</span></li>
+                            <li class="list-item">1GB <span class="text-muted">Storage</span></li>
+                            <li class="list-item"><span class="text-muted">No Domain</span></li>
+                            <li class="list-item">1 <span class="text-muted">User</span></li>
+                        </ul>
+                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Basic</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">10</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">50 <span class="text-muted">Project</span></li>
+                            <li class="list-item">10GB <span class="text-muted">Storage</span></li>
+                            <li class="list-item">1<span class="text-muted">Domain</span></li>
+                            <li class="list-item">5 <span class="text-muted">User</span></li>
+                        </ul>
+                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center price-card-requried mb-4">
+                        <h3 class="price-card-title">Exclusive</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">25</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">150 <span class="text-muted">Project</span></li>
+                            <li class="list-item">15GB <span class="text-muted">Storage</span></li>
+                            <li class="list-item">5<span class="text-muted"> Domain</span></li>
+                            <li class="list-item">15<span class="text-muted">User</span></li>
+                        </ul>
+                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Pro</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">99</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">500 <span class="text-muted">Project</span></li>
+                            <li class="list-item">1000GB <span class="text-muted">Storage</span></li>
+                            <li class="list-item">10<span class="text-muted"> Domain</span></li>
+                            <li class="list-item">Unlimite<span class="text-muted">User</span></li>
+                        </ul>
+                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- <section class="section bg-dark py-5">
+        <div class="container text-center">
+            <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
+            <button class="btn bg-primary w-lg" >Hire me</button>
+        </div>
+    </section> -->
+
+    <!-- Portfolio Section -->
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        Spring 2024
+                    </a>
+                    <a href="#" data-filter=".advertising">
+                        Fall 2023
+                    </a>
+                    <!-- <a href="#" data-filter=".branding">
+                        Spring 2024
+                    </a> -->
+                    <!-- <a href="#" data-filter=".web">
+                        Web
+                    </a> -->
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/portfolio-01.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/portfolio-01.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">CoveyTown Virtual Shop <h6>
+                    
+                                    <p class="subtitle"><span>CS 4350 (Foundation to Software Engineering)</span></p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/portfolio-02.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/portfolio-02.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">HeritageHub</h6>
+                                    <p class="subtitle">  <span>IS 4300 (Human-Computer Interaction)</span></p>
+                                </div>
+                            </div> 
+                        </div>                         
+                    </div>
+            
+                    <div class="col-md-6 col-lg-4 advertising">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/portfolio-03.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/portfolio-03.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Reversi Game</h6>
+                                    <p class="subtitle">CS 3500 (Object Oriented Design)</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 advertising"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/portfolio-04.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/portfolio-04.png"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Sports Management Database</h6>
+                                    <p class="subtitle">CS 3200 (Database Design)</p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                   
+                </div> 
+            </div>  
+        </div>            
+    </section>
+    <!-- End of portfolio section -->
+
+   
+
+    <div class="section contact" id="contact">
+        <div id="map" class="map"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Send a message</h4>
+                        <form action="">
+                            <div class="form-group">
+                                <input  class="form-control" type="text" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
+                            </div>
+                            <div class="form-group ">
+                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-mobile icon-md"></i>
+                            </div>
+                            <div class="col-10 ">
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (240) 889-0726</span></h6>
+                            </div>
+                        </div>
+                     
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">tesfaye.be@northeastern.edu</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Personal Email :<br> <span class="text-muted">belen.ttesfaye@gmail.com</span></h6>
+                            </div>
+                        </div>
+                        <ul class="social-icons pt-4">
+                            <li class="social-item">
+                                <a class="social-link text-dark" href="https://github.com/belentesfaye" target="_blank">
+                                    <i class="ti-github" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <!-- <li class="social-item">
+                                <a class="social-link text-dark" href="https://twitter.com/yourusername" target="_blank">
+                                    <i class="ti-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li> -->
+                            <li class="social-item">
+                                <a class="social-link text-dark" href="https://www.instagram.com/belen.tesf" target="_blank">
+                                    <i class="ti-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
             </div>
 
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
         </div>
-
-      </article>
-
-
-<!-- #RESUME -->
-
-<article class="resume" data-page="resume">
-
-  <header>
-    <h2 class="h2 article-title">Resume</h2>
-  </header>
-
-  <section class="timeline">
-
-    <div class="title-wrapper">
-      <div class="icon-box">
-        <ion-icon name="book-outline"></ion-icon>
-      </div>
-
-      <h3 class="h3">Education</h3>
     </div>
-
-    <ol class="timeline-list">
-
-      <li class="timeline-item">
-
-        <h4 class="h4 timeline-item-title">Northeastern University</h4>
-
-        <span>Expected May 2025</span>
-
-        <p class="timeline-text">
-          Khoury College of Computer Sciences, Honors Program<br>
-          Candidate for Bachelor of Science in Computer Science and Behavioral Neuroscience<br><br>
-          Relevant and Ongoing Course Work:
-          <ul>
-            <li>Object-Oriented Design</li>
-            <li>Data Based Design</li>
-            <li>Fundamentals of Computer Science I & II</li>
-            <li>Statistics in Psychology Research</li>
-            <li>Fundamentals of Software Engineering (IP)</li>
-            <li>Algorithms and Data Structure (IP)</li>
-            <li>Human Interactions (IP)</li>
-            <li>Introduction to Computer Science Research (IP)</li>
-            <li>Technology and Human Values (IP)</li>
-          </ul>
-        </p>
-
-
-      </li>
-
-      <li class="timeline-item">
-
-        <h4 class="h4 timeline-item-title">Northeastern University Global Quest Program at American College of Thessaloniki</h4>
-
-        <span>Spring 2022</span>
-
-
-      </li>
-
-    </ol>
-
-  </section>
-
-  <section class="skill">
-
-    <h3 class="h3 skills-title">Skills</h3>
-
-    <ul class="skills-list content-card">
-
-      <li class="skills-item">
-
-        <div class="title-wrapper">
-          <h5 class="h5">Computer Languages</h5>
-          <p>: Java, Typescript, ReactJS, Python, and C++ (CLion), SQL (MySQL), CSS, HTML</p>
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
+            </p>
         </div>
+    </footer>
 
-      </li>
-      
-      <li class="skills-item">
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-        <div class="title-wrapper">
-          <h5 class="h5">Version Control</h5>
-          <p>: Git</p>
-        </div>
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-      </li>
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLfhlOWrrgr55wJtjpBePmIUQzutenpmE&callback=initMap"></script>
 
-      <li class="skills-item">
 
-        <div class="title-wrapper">
-          <h5 class="h5">Computing Platform</h5>
-          <p>: GUI</p>
-        </div>
+    <!-- JohnDoe js -->
+    <script src="assets/js/johndoe.js"></script>
 
-      </li>
+    <!-- download resume-->
+    <script src="assets/js/jspdf.umd.min.js"></script>
 
-      <li class="skills-item">
 
-        <div class="title-wrapper">
-          <h5 class="h5">Software Systems: </h5>
-          <p>ITK-SNAP, MATLAB, Monailabel, 3D Slicer, JASP</p>
-        </div>
 
-      </li>
 
-      <li class="skills-item">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const printBtn = document.getElementById('print-resume-btn');
+            const resumePdfUrl = 'assets/Resume/Belen Tesfaye  Resume .pdf';
+    
+            printBtn.addEventListener('click', function () {
+                // Open the PDF file in a new tab and trigger print
+                window.open(resumePdfUrl, '_blank', 'fullscreen=yes');
+            });
+        });
+    </script>
+    
+    
+    
 
-        <div class="title-wrapper">
-          <h5 class="h5">Computing Platform</h5>
-          <p>GUI</p>
-        </div>
-
-      </li>
-
-      <li class="skills-item">
-
-        <div class="title-wrapper">
-          <h5 class="h5">Language:</h5>
-          <p>Amharic (native speaker)</p>
-        </div>
-
-      </li>
-
-      <li class="skills-item">
-
-        <div class="title-wrapper">
-          <h5 class="h5">Microsoft Office Suite: </h5>
-          <p>Excel, Word, Outlook</p>
-        </div>
-
-      </li>
-
-    </ul>
-
-  </section>
-
-  <section class="timeline">
-
-    <div class="title-wrapper">
-      <div class="icon-box">
-        <ion-icon name="book-outline"></ion-icon>
-      </div>
-
-      <h3 class="h3">Experience</h3>
-    </div>
-
-    <ol class="timeline-list">
-       <li class="timeline-item">
-
-        <h4 class="h4 timeline-item-title">D’Amore-McKim Business School – Entrepreneurship and Innovation, Remote (Boston, MA)</h4>
-
-        <span>April 2023 – Present</span>
-
-        <p class="timeline-text">
-          - Contributed to the development of large datasets for a biotech startup.
-          - Applied established methodology and training to gather, input, and clean data.
-        </p>
-
-      </li>
-
-      <li class="timeline-item">
-
-        <h4 class="h4 timeline-item-title">Beth Israel Deaconess Medical Central Location – Neuroimaging Assistant Co-op, Remote (Boston, MA)</h4>
-
-        <span>June 2023 - September 2023</span>
-
-        <p class="timeline-text">
-          - Investigated the application of neuroimaging techniques in clinical research, focusing on diseases such as cerebral amyloid angiopathy, multiple sclerosis, cancer, and diabetes.
-          - Utilized Python, ITK-SNAP, MATLAB, Monailabel, and 3D Slicer for computer-based image analysis.
-        </p>
-
-      </li>
-
-
-    </ol>
-
-  </section>
-
-</article>
-
-
-
-
-
-
-      <!--
-  - #PORTFOLIO
--->
-
-<article class="portfolio" data-page="portfolio">
-
-  <header>
-    <h2 class="h2 article-title">Portfolio</h2>
-  </header>
-
-  <section class="projects">
-
-    <ul class="filter-list">
-
-      <li class="filter-item">
-        <button class="active" data-filter-btn>All</button>
-      </li>
-
-      <li class="filter-item">
-        <button data-filter-btn>Java Projects</button>
-      </li>
-
-      <li class="filter-item">
-        <button data-filter-btn>Database Projects</button>
-      </li>
-
-    </ul>
-
-    <div class="filter-select-box">
-
-      <button class="filter-select" data-select>
-
-        <div class="select-value" data-select-value>Select category</div>
-
-        <div class="select-icon">
-          <ion-icon name="chevron-down"></ion-icon>
-        </div>
-
-      </button>
-
-      <ul class="select-list">
-
-        <li class="select-item">
-          <button data-select-item>All</button>
-        </li>
-
-
-      </ul>
-
-    </div>
-
-    <ul class="project-list">
-  <li class="project-item active" data-filter-item data-category="web development projects">
-    <a href="#">
-      <figure class="project-img">
-        <div class="project-item-icon-box">
-          <ion-icon name="eye-outline"></ion-icon>
-        </div>
-        <img src="./website photos/mesmes-1.png" alt="Mesmes – Language Learning Website" loading="lazy">
-      </figure>
-      <h3 class="project-title">Mesmes – Language Learning Website</h3>
-      <p class="project-category">Web Development Projects</p>
-      <p class="project-description">Continuing the development of a Language Learning Website to promote awareness and preservation of endangered languages. Utilizing HTML, CSS, and JavaScript for a dynamic, interactive platform offering educational resources, community forums, and language exercises. Implementing multilingual support for inclusivity, merging frontend development skills with a passion for language advocacy and cultural preservation.</p>
-    </a>
-  </li>
-
-  <li class="project-item active" data-filter-item data-category="class projects">
-    <a href="#">
-      <figure class="project-img">
-        <div class="project-item-icon-box">
-          <ion-icon name="eye-outline"></ion-icon>
-        </div>
-        <!-- Leave image empty if not included -->
-      </figure>
-      <h3 class="project-title">Heritage Archive Application</h3>
-      <p class="project-category">Class Projects</p>
-      <p class="project-description">Currently developing an application for a heritage archive project as part of the Human-Computer Interaction course. Utilizing React for frontend development and integrating OpenAI for enhanced functionality. Aim to create a user-friendly application that preserves and promotes cultural heritage effectively.</p>
-    </a>
-  </li>
-
-  <li class="project-item active" data-filter-item data-category="class projects">
-    <a href="#">
-      <figure class="project-img">
-        <div class="project-item-icon-box">
-          <ion-icon name="eye-outline"></ion-icon>
-        </div>
-        <!-- Leave image empty if not included -->
-      </figure>
-      <h3 class="project-title">Virtual Shop UI Design</h3>
-      <p class="project-category">Collaborative Projects</p>
-      <p class="project-description">Working with a group to expand the virtual town in Covey.Town by designing the UI for the login screen and virtual shop. Utilizing Figma for UI/UX design, creating wireframes, and design concepts. Contributing to the enhancement of user experience in virtual environments.</p>
-    </a>
-  </li>
-
-  <li class="project-item active" data-filter-item data-category="class projects">
-    <a href="#">
-      <figure class="project-img">
-        <div class="project-item-icon-box">
-          <ion-icon name="eye-outline"></ion-icon>
-        </div>
-        <!-- Leave image empty if not included -->
-      </figure>
-      <h3 class="project-title">Connect Four Game Integration</h3>
-      <p class="project-category">Class Projects</p>
-      <p class="project-description">Collaborated on both backend and frontend aspects to integrate a Connect Four game into Covey.Town, a virtual environment. Used TypeScript, JavaScript, HTML, and CSS for frontend development and implemented server-side logic using Node.js. Demonstrated ability to work on multifaceted projects and integrate interactive solutions seamlessly.</p>
-    </a>
-  </li>
-
-  <li class="project-item active" data-filter-item data-category="database projects">
-    <a href="#">
-      <figure class="project-img">
-        <div class="project-item-icon-box">
-          <ion-icon name="eye-outline"></ion-icon>
-        </div>
-        <!-- Leave image empty if not included -->
-      </figure>
-      <h3 class="project-title">Using Database System for Sports Management in NBA</h3>
-      <p class="project-category">Database Projects</p>
-      <p class="project-description">The integrated database system for NBA sports management addresses the multifaceted needs of the league by surpassing the limitations of standalone tables. By creating interlinked multidimensional datasets, this project offers a comprehensive solution essential to NBA management, covering athlete profiles, team finances, sport events, and sponsorships. Utilizing ER diagrams and normalization techniques, the database schema comprises seven interconnected tables, each representing specific data elements crucial to NBA management. Overall, this project sets a new standard for database management systems in sports leagues worldwide, offering a robust platform for data-driven decision-making and revolutionizing sports management through comprehensive analysis.</p>
-    </a>
-  </li>
-</ul>
-
-  </section>
-
-</article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-    <article class="blog" data-page="blog">
-  <header>
-    <h2 class="h2 article-title">Blog</h2>
-  </header>
-  <section class="blog-posts">
-    <ul class="blog-posts-list">
-      <li class="blog-post">
-        <h3 class="blog-post-title">Title: "Married at 14: Zambia’s Child Brides | Woman with Gloria Steinem"</h3>
-        <p class="blog-post-summary">In this documentary, we follow the journey of a 14-year-old Zambian girl as she undergoes pre-wedding rituals before marrying a 48-year-old man. Through her story, we gain insight into the devastating impact of child marriage on girls and communities in Zambia, and how it threatens the entire region.</p>
-        <a href="https://www.youtube.com/watch?v=dRiAnrfX3Io" class="blog-post-link">Watch the Documentary</a>
-        <p class="blog-post-prompt">Blog Prompt: As someone who comes from a country where child marriage is prevalent, I understand the urgency and importance of addressing this issue globally. Despite ongoing efforts to prevent child marriage, it remains a widespread problem, with legal marriage age as low as 14 in some states in the US. Reflecting on personal experiences and the stories of close families, consider writing an opinion piece that delves into the effects of child marriage in different countries and communities. Discuss the changes in societal views towards child marriage, and explore potential solutions to combat this form of child abuse and protect the rights of children and women worldwide. Your piece could serve as a powerful advocacy tool to raise awareness and inspire action towards ending child marriage globally.</p>
-      </li>
-    </ul>
-  </section>
-</article>
-
-
-
-
-
-
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
-
 </html>
